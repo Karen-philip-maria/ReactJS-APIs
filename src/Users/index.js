@@ -4,6 +4,7 @@ import UserCard from "../Atoms/UserCard";
 const Users = () => {
   const { users, error, loading } = useGetUsers();
   console.log({ users });
+  
   return (
     <div className="images">
       {loading && <h2> Loading users ...</h2>}
