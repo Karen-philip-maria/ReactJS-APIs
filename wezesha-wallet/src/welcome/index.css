@@ -1,0 +1,131 @@
+.welcome{
+    background-color: #ffffff;
+    display: flex;
+}
+.mission{
+     margin-bottom: -7px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+}
+.vission{
+    margin-bottom: -8px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    
+}
+
+.our-mission{
+    color: rgb(0, 0, 0);
+    flex-wrap: wrap;
+    width: 30%;
+    margin-left: 42%;
+    font-size: x-large;
+    text-align: start;
+}
+.our-vission{
+    color: rgb(0, 0, 0);
+    width: 30%;
+    text-align: start;
+    margin-left: 40%;
+    flex-wrap: wrap;
+    font-size: x-large;
+}
+#image{
+    width: 73px;
+    height: 63px;
+    margin-top: -89px;
+    margin-left: 415px;
+}
+#images{
+    width: 73px;
+    height: 75px;
+    margin-top: -89px;
+    margin-left: 200px;
+}
+ 
+
+@media (max-width: 767px) {
+    #image {
+        width: 50px;
+        height: 50px;
+        margin-top: 20px; 
+        margin-left: 50%; 
+        transform: translateX(-50%);
+    }
+
+    #images {
+        width: 50px;
+        height: 50px;
+        margin-top: 20px; 
+        margin-left: 50%; 
+        transform: translateX(-50%);
+    }
+    .mission,
+    .vision {
+        text-align: start;
+        font-size: 300%;
+       
+    }
+    .welcome{
+        display: block;
+    }
+    .our-mission{
+        color: rgb(0, 0, 0);
+        flex-wrap: wrap;
+        width: 53%;
+        margin-left: 100px;
+        font-size: small;
+        text-align: start;
+    }
+    .our-vission{
+        color: rgb(0, 0, 0);
+        width: 53%;
+        text-align: start;
+        margin-left: 100px;
+        flex-wrap: wrap;
+        font-size: small;
+    }
+}
+
+
+@media (max-width: 575px) {
+    #image {
+        width: 60px;
+        height: 50px;
+        margin-top: 20px; 
+        margin-left: 50%; 
+        transform: translateX(-50%);
+    }
+
+    #images {
+        width: 50px;
+        height: 50px;
+        margin-top: 20px; 
+        margin-left: 50%; 
+        transform: translateX(-50%);
+    }
+
+    .mission,
+    .vision {
+        display: block;
+        text-align: center;
+    }
+    .our-mission{
+        color: rgb(0, 0, 0);
+        flex-wrap: wrap;
+        width: 53%;
+        margin-left: 110px;
+        font-size: small;
+        text-align: start;
+    }
+    .our-vission{
+        color: rgb(0, 0, 0);
+        width: 53%;
+        text-align: start;
+        margin-left: 110px;
+        flex-wrap: wrap;
+        font-size: small;
+    }
+}

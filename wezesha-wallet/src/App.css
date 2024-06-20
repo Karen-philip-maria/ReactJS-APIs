@@ -36,23 +36,3 @@
     transform: rotate(360deg);
   }
 }
-
-form{
-  width: 60%;
-  border: solid 1px;
-}
-input{
-  padding: 12px 5px;
-  width: 9%;
-  margin: 2% 0;
-}
-button {
-  padding: 10px 12px;
-  width: 96%;
-  margin-top: 2%;
-  border-radius: 5%;
-  border: none;
-  background-color: green;
-  color: white;
-
-}
